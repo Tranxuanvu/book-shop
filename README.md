@@ -18,6 +18,8 @@ my-app/
     index.html
     favicon.ico
   src/
+    actions/
+      bookActions.js
     components/
       book/
         BookPage.js
