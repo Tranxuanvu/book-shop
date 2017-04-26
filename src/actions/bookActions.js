@@ -1,6 +1,6 @@
 export const createBook = (book) => {
-  return(
+  return {
     type: 'CREATE_BOOK',
-    book: book
-  );
+    book
+  };
 }

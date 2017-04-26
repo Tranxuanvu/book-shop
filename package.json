@@ -6,9 +6,12 @@
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.23.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {

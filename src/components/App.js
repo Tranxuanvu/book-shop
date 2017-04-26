@@ -4,7 +4,7 @@ import Home from './common/HomePage';
 import About from './common/AboutPage';
 import Book from './book/BookPage';
 
-const App = (props) => {
+const App = () => {
   return (
     <div className="container">
       <nav className="navbar navbar-default">
@@ -23,8 +23,6 @@ const App = (props) => {
           </div>
         </div>
       </nav>
-      {/* Each smaller components */}
-      {props.children}
 
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
