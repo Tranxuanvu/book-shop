@@ -28,6 +28,8 @@ my-app/
         AbouPage.js
       App.css
       App.js
+    reducers/
+      bookReducers.js
     App.test.js
     index.css
     index.js
